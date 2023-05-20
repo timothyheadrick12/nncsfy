@@ -21,6 +21,8 @@
     "fmt": "prettier --write '**/*.{tsx,ts,json,css,scss,md}'"
   },
   "dependencies": {
+    "@types/chrome": "^0.0.236",
+    "chrome-types": "^0.1.196",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

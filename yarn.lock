@@ -335,6 +335,31 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
+"@types/chrome@^0.0.236":
+  version "0.0.236"
+  resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.236.tgz#f967769015c458718d4328a54682fa24f0c62c92"
+  integrity sha512-ArQoxO9WtDY6GWcT2cpo+D+hyASPeFt7PHQEUDXwQhRS00Rbop07rnEOA046yws0HkM83Tcew/hW6Dgvnj4iMQ==
+  dependencies:
+    "@types/filesystem" "*"
+    "@types/har-format" "*"
+
+"@types/filesystem@*":
+  version "0.0.32"
+  resolved "https://registry.yarnpkg.com/@types/filesystem/-/filesystem-0.0.32.tgz#307df7cc084a2293c3c1a31151b178063e0a8edf"
+  integrity sha512-Yuf4jR5YYMR2DVgwuCiP11s0xuVRyPKmz8vo6HBY3CGdeMj8af93CFZX+T82+VD1+UqHOxTq31lO7MI7lepBtQ==
+  dependencies:
+    "@types/filewriter" "*"
+
+"@types/filewriter@*":
+  version "0.0.29"
+  resolved "https://registry.yarnpkg.com/@types/filewriter/-/filewriter-0.0.29.tgz#a48795ecadf957f6c0d10e0c34af86c098fa5bee"
+  integrity sha512-BsPXH/irW0ht0Ji6iw/jJaK8Lj3FJemon2gvEqHKpCdDCeemHa+rI3WBGq5z7cDMZgoLjY40oninGxqk+8NzNQ==
+
+"@types/har-format@*":
+  version "1.2.10"
+  resolved "https://registry.yarnpkg.com/@types/har-format/-/har-format-1.2.10.tgz#7b4e1e0ada4d17684ac3b05d601a4871cfab11fc"
+  integrity sha512-o0J30wqycjF5miWDKYKKzzOU1ZTLuA42HZ4HE7/zqTOc/jTLdQ5NhYWvsRQo45Nfi1KHoRdNhteSI4BAxTF1Pg==
+
 "@types/prop-types@*":
   version "15.7.5"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.5.tgz#5f19d2b85a98e9558036f6a3cacc8819420f05cf"
@@ -474,6 +499,11 @@ cheerio@^1.0.0-rc.10:
     htmlparser2 "^8.0.1"
     parse5 "^7.0.0"
     parse5-htmlparser2-tree-adapter "^7.0.0"
+
+chrome-types@^0.1.196:
+  version "0.1.196"
+  resolved "https://registry.yarnpkg.com/chrome-types/-/chrome-types-0.1.196.tgz#a4fab22728b36ac5de2ee1f9256072910789120c"
+  integrity sha512-Vuxyjdn6dhhY5krzX/HMxJWswx0M7ENnr/T8mmSfwpiAtSZ1BKY8nZ6fY+DnzGN6tVpl0ULSbtqbwij+G4An/A==
 
 color-convert@^1.9.0:
   version "1.9.3"
